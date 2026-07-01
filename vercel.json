@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "installCommand": "cd task-tracker && npm install",
+  "buildCommand": "cd task-tracker && npm run build",
+  "outputDirectory": "task-tracker/build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
